@@ -90,7 +90,7 @@ function installFuncCli() {
 }
 
 function gulp_installPythonExtension() {
-    return gulp_installVSCodeExtension('2019.8.30787', 'ms-python', 'python');
+    return gulp_installVSCodeExtension('ms-python', 'python');
 }
 
 exports['webpack-dev'] = gulp.series(prepareForWebpack, () => gulp_webpack('development'));
